@@ -260,9 +260,38 @@ header nav ul li .contactobtn:hover {
   color: #fff;
   margin: 20px;
 }
+.proyecto .proyecto2 .r > * {
+  margin: 3px;
+}
 .proyecto .proyecto2 .r h3 {
-  font-size: 22px;
-  margin-bottom: 4px;
+  font-size: 26px;
+}
+.proyecto .proyecto2 .r h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.proyecto .proyecto2 .r .locationicon {
+  display: flex;
+  align-items: center;
+}
+.proyecto .proyecto2 .r .locationicon img {
+  width: 20px;
+  margin-right: 5px;
+}
+.proyecto .proyecto2 .r div {
+  margin-block: 20px;
+}
+.proyecto .proyecto2 .r div a {
+  background-color: #b38838;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 700;
+}
+.proyecto .proyecto2 .r div a:hover {
+  background-color: #a17a31;
 }
 
 .container {
