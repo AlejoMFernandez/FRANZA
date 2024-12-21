@@ -185,7 +185,7 @@ header nav ul li .contactobtn:hover {
   justify-content: center;
   background-image: linear-gradient(to right, #a17a31, #745723);
 }
-.corte .container {
+.corte .containercorte {
   display: flex;
   flex-direction: column;
   width: 700px;
@@ -193,13 +193,13 @@ header nav ul li .contactobtn:hover {
   color: #fff;
   margin-block: 25px;
 }
-.corte .container > * {
+.corte .containercorte > * {
   margin: 5px;
 }
-.corte .container div {
+.corte .containercorte div {
   margin: 20px;
 }
-.corte .container div a {
+.corte .containercorte div a {
   background-color: #b38838;
   font-size: 20px;
   padding: 10px 20px;
@@ -208,7 +208,7 @@ header nav ul li .contactobtn:hover {
   transition: all 0.4s ease;
   font-weight: 700;
 }
-.corte .container div a:hover {
+.corte .containercorte div a:hover {
   background-color: #a17a31;
 }
 
