@@ -16,11 +16,56 @@
                 <a href="../../index.html"><img src="../../img/franzaicon.png" alt="FranzaLogo"></a>
             </ul>
             <ul>
-                <li><a href="html/servicios.html">Servicios</a></li>
-                <li><a href="html/galeria.html">Galería</a></li>
-                <li><a href="html/quienessomos">Quienes somos</a></li>
+                <li><a class="headerbtn" href="html/servicios.html">Servicios</a></li>
+                <li><a class="headerbtn" href="html/galeria.html">Galería</a></li>
+                <li><a class="headerbtn" href="html/quienessomos">Quienes somos</a></li>
                 <li><a class="contactobtn" href="html/contacto.html">SOLICITAR PRESUPUESTO</a></li>
             </ul>
         </nav>
     </header>
+    <section class="obra-container">
+        <div class="left">
+            <h2>REFORMA COMPLETA DE HOGAR</h2>
+            <div class="datos">
+                <h4>Datos del proyecto</h4>
+                <div class="line"></div>
+                <p><strong>LOGALIZACION:</strong> Villa Lynch, Tres de Febrero</p>
+                <p><strong>AÑO:</strong> 2023 - 2024</p>
+            </div>
+            <div class="descripcion">
+                <h4>Descripción del proyecto</h4>
+                <div class="line"></div>
+                <p>
+                    Se realizaron las demoliciones de revoques en mal estado y se ejecutaron nuevos
+                    <br>Impermeabilización de techos
+                    <br>Nueva instalación eléctrica independiente para aires acondicionados
+                    <br>Reforma de baño
+                    <br>Pintura completa interior y exterior
+                    <br>Reforma de fachada
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container">
+                <div class="image-container">
+                  <img class="image-before" src="../../img/obracivilantess.jpg" alt="Antes de la reforma" />
+                  <img class="image-after" src="../../img/obracivildespues.jpg" alt="Después de la reforma" />
+                </div>
+                <input type="range" min="0" max="100" value="50" aria-label="Porcentaje visible" class="slider" />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                    <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                  </svg>
+                </div>
+              </div>
+              
+        </div>
+    </section>
+<script src="js/index.js"></script>
 </body>

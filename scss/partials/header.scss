@@ -1,5 +1,5 @@
 header{
-    background-image: linear-gradient(to bottom, #1a1a1a, transparent);
+    background-image: linear-gradient(to bottom, black, transparent);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -18,11 +18,17 @@ header{
             }
             li{
                 margin: 20px;
-                a{
+                .headerbtn{
                     text-decoration: none;
                     color: #fff;
+                    &:hover{
+                        color: #cca761;
+                        transition: color .2s ease;
+                    }
                 }
                 .contactobtn{
+                    text-decoration: none;
+                    color: #fff;
                     font-weight: 700;
                     background-color: #b38838;
                     padding: 10px;
